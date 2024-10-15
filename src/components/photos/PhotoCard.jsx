@@ -20,7 +20,7 @@ export default function PhotoCard({ data }) {
             {data.date} | {data.time}
           </span>
         </div>
-        <h3 className="flex gap-2 items-center text-[17px] text-purple-600 py-1"><MdManageAccounts className="text-xl" /> {data.name}</h3>
+        <h3 className="flex gap-2 items-center text-[17px] text-primary-400 py-1"><MdManageAccounts className="text-xl" /> {data.name}</h3>
         <div>
           <button className="flex items-center gap-1 text-xl">
             <AiOutlineLike />

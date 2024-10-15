@@ -1,3 +1,4 @@
+import Button from "@/components/photos/Button";
 import PhotoList from "@/components/photos/PhotoList";
 import { MdOutlineFileUpload } from "react-icons/md";
 
@@ -12,9 +13,7 @@ export default function Photos() {
         <h3 className="text-xl mb-2">
           43 photos have been shared by attendees
         </h3>
-        <button className="flex gap-2 border border-primary-400 mx-auto text-primary-400 px-6 py-2 rounded-md">
-          Upload <MdOutlineFileUpload className="text-xl" />
-        </button>
+        <Button text="Upload" icon={MdOutlineFileUpload} />
       </div>
 
       <PhotoList />
