@@ -1,4 +1,4 @@
-import EventCheckList from "@/components/EventCheckList";
+import EventCheckList from "@/components/overview/EventCheckList";
 
 export default function Home() {
   return (
